@@ -1,6 +1,7 @@
 import Typewriter from "typewriter-effect";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
+import profileImage from "/profiles.jpg"; // 
 
 const Home = () => {
   return (
@@ -60,7 +61,7 @@ const Home = () => {
         <div className="order-1 lg:order-2 flex justify-end items-center">
           <img
             className="w-[60%] rounded-[50px]"
-            src="profiles.jpg"
+            src={profileImage}
             alt="Profile"
           />
         </div>
